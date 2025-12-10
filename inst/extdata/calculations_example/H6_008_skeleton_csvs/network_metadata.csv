@@ -1,0 +1,14 @@
+name,value,lineIndex,clusterIndex
+fractalDimension,0.8789904315660387,,
+linesInImage,3,,
+clustersInImage,2,,
+linesInCluster,2,,0
+linesInCluster,1,,1
+averageLineLength,0.01704782597193891,,0
+averageLineLength,0.011005514702957247,,1
+sinuosity,1.003556186317654,0,
+sinuosity,1.0262106321926459,1,
+sinuosity,1.0,2,
+centerLineWidth,0.0015060240963855422,0,
+centerLineWidth,0.004518072289156626,1,
+centerLineWidth,0.007028112449799197,2,

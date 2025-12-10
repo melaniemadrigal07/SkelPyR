@@ -1,0 +1,12 @@
+lineIndex,pointIndex0,pointIndex1,pointIndex2,pointIndex3,pointIndex4,pointIndex5
+0,0,1,2
+1,2,3,4,5
+2,5,6
+3,7,8,9
+4,13,12,10,11
+5,13,14,15
+6,15,16,17
+7,17,18
+8,18,20,21
+9,22,24,28,31,32
+10,22,23,26,27,29,30

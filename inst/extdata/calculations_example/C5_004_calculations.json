@@ -1,0 +1,79 @@
+{
+    "originalImage": "/Users/melaniemadrigal/Desktop/Plate3/C5_004.tif",
+    "timestamp": 4,
+    "sample": "C5",
+    "sclerotiaPrimordia": {
+        "skeleton": "/Users/melaniemadrigal/Desktop/Skeleton3/C5_004_sclerotiaPrimordia.tif",
+        "vectorized": {
+            "lines": [
+                [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            ],
+            "points": [
+                [
+                    0.33684738955823296,
+                    0.07228915662650603
+                ],
+                [
+                    0.3369728915662651,
+                    0.06381777108433737
+                ],
+                [
+                    0.34036144578313254,
+                    0.06024096385542166
+                ],
+                [
+                    0.3463855421686747,
+                    0.05923694779116462
+                ],
+                [
+                    0.3426204819277109,
+                    0.04668674698795183
+                ]
+            ],
+            "clusters": [
+                [
+                    0
+                ]
+            ]
+        },
+        "fractalDimension": 0.0,
+        "linesInImage": 1,
+        "clustersInImage": 1,
+        "linesInCluster": [
+            1
+        ],
+        "averageLineLength": [
+            0.02413703844332301
+        ],
+        "sinuosity": [
+            1.3381261405340057
+        ],
+        "centerLineWidth": [
+            0.015060240963855422
+        ],
+        "lineComments": {},
+        "clusterComments": {}
+    },
+    "network": {
+        "skeleton": "/Users/melaniemadrigal/Desktop/Skeleton3/C5_004_network.tif",
+        "vectorized": {
+            "lines": [],
+            "points": [],
+            "clusters": []
+        },
+        "fractalDimension": 0.0,
+        "linesInImage": 0,
+        "clustersInImage": 0,
+        "linesInCluster": [],
+        "averageLineLength": [],
+        "sinuosity": [],
+        "centerLineWidth": [],
+        "lineComments": {},
+        "clusterComments": {}
+    }
+}

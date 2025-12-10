@@ -1,0 +1,39 @@
+{
+    "originalImage": "/Users/melaniemadrigal/Desktop/Plate3/C5_003.tif",
+    "timestamp": 3,
+    "sample": "C5",
+    "sclerotiaPrimordia": {
+        "skeleton": "/Users/melaniemadrigal/Desktop/Skeleton3/C5_003_sclerotiaPrimordia.tif",
+        "vectorized": {
+            "lines": [],
+            "points": [],
+            "clusters": []
+        },
+        "fractalDimension": 0.0,
+        "linesInImage": 0,
+        "clustersInImage": 0,
+        "linesInCluster": [],
+        "averageLineLength": [],
+        "sinuosity": [],
+        "centerLineWidth": [],
+        "lineComments": {},
+        "clusterComments": {}
+    },
+    "network": {
+        "skeleton": "/Users/melaniemadrigal/Desktop/Skeleton3/C5_003_network.tif",
+        "vectorized": {
+            "lines": [],
+            "points": [],
+            "clusters": []
+        },
+        "fractalDimension": 0.0,
+        "linesInImage": 0,
+        "clustersInImage": 0,
+        "linesInCluster": [],
+        "averageLineLength": [],
+        "sinuosity": [],
+        "centerLineWidth": [],
+        "lineComments": {},
+        "clusterComments": {}
+    }
+}
