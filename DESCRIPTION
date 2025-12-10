@@ -1,6 +1,6 @@
-Package: SkelPy
+Package: SkelPyR
 Type: Package
-Title: SkelPy – Fungal Skeletonization Analysis Toolkit
+Title: SkelPyR – Fungal Skeletonization Analysis Toolkit
 Version: 0.1.0
 Authors@R: 
     person("Melanie", "Madrigal", 
