@@ -24,6 +24,20 @@ Load SkelPy into your R session with:
 This must be run each time you start a new R session.
 
 ---
+## Example Data
+SkelPyR includes a small example dataset derived from real SkelPy/HyPhy output.  
+This dataset is bundled inside the package under:
+
+    inst/extdata/calculations_example/
+
+These files contain minimal JSON skeletons that allow users and reviewers to  
+run the entire pipeline without needing external data.
+
+You can access the example data with:
+
+    example_dir <- system.file("extdata", "calculations_example", package = "SkelPyR")
+    list.files(example_dir)
+
 
 ## Quick Usage Example
 
@@ -174,6 +188,6 @@ These files typically end in:
 If you encounter a bug or would like to request features, please email melaniemadrigal007@gmail.com
 
 ---
-
+## M
 
 
