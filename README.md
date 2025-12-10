@@ -19,7 +19,7 @@ Install the development version from GitHub:
 
 Load SkelPy into your R session with:
 
-    library(SkelPy)
+    library(SkelPyR)
 
 This must be run each time you start a new R session.
 
