@@ -129,12 +129,22 @@ compute_cleaning_summary <- function(network_results) {
 #' Node-level metrics (hyphae)
 #' @export
 compute_node_stats <- function(network_results) {
+
+  extract_xy <- function(df) {
+    coords <- sf::st_coordinates(df$geometry)
+    df$x <- coords[,1]
+    df$y <- coords[,2]
+    df$geometry <- NULL   # drop sf geometry column
+    df$.tidygraph_node_index <- NULL  # drop indexing column if present
+    df
+  }
+
   purrr::map_dfr(
     seq_along(network_results),
     function(i) {
       net <- network_results[[i]]$network_hyphae$clean_net
 
-      net %>%
+      df <- net %>%
         activate(nodes) %>%
         mutate(
           file       = names(network_results)[i],
@@ -144,9 +154,15 @@ compute_node_stats <- function(network_results) {
           component  = group_components()
         ) %>%
         as_tibble()
+
+      # 👉 FIX: Convert sf POINT geometry → numeric x,y columns
+      df <- extract_xy(df)
+
+      return(df)
     }
   )
 }
+
 
 #' Edge-level metrics (hyphae)
 #' @export
