@@ -188,6 +188,5 @@ These files typically end in:
 If you encounter a bug or would like to request features, please email melaniemadrigal007@gmail.com
 
 ---
-## M
 
 
