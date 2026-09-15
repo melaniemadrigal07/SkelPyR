@@ -188,12 +188,14 @@ unclean_mapR <- function(x){
 #' @export
 networkR <- function(x, organ){
 
-  # decrease precision of coordinates for faster spatial operations
+  # Keep all geometries at sf's default precision. Some sf/sfnetworks
+  # operations recreate geometries with precision 0; forcing only the input
+  # nodes and edges to 1e6 causes precision-mismatch errors.
   nodes_sf <- x[[organ]][['nodes']] |>
-    sf::st_set_precision(1e6)
+    sf::st_set_precision(0)
 
   edges_sf <- x[[organ]][['edges']] |>
-    sf::st_set_precision(1e6)
+    sf::st_set_precision(0)
 
   # Extract start and end points from edges
   edge_starts <- sf::st_line_sample(edges_sf, sample = 0) |> sf::st_cast("POINT")
